@@ -142,11 +142,17 @@
     "TeraBox": "https://ik.imagekit.io/dkdlgynlu/Picsart-25-11-10-18-01-52-861.png",
     "PlaySafeCard": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-478-B983.png",
     "TikTok Official": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B93-FC6-C.png",
-    "TikTok Non Official": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B93-FC6-C.png",
-    "Telegram Boosting": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-ED17968.png",
-    "YouTube Boosting": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-87-A43-F1.png",
-    "Facebook Boosting": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
-    "Instagram Boosting": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-01-CA830.png",
+    
+    // RENAMED BOOSTING PRODUCTS
+    "TikTok Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B93-FC6-C.png",
+    "Telegram Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-ED17968.png",
+    "YouTube Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-87-A43-F1.png",
+    "Facebook Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
+    "Instagram Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-01-CA830.png",
+
+    // NEW FACEBOOK OFFICIAL
+    "Facebook Official": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
+
     "Custom Website Service": "https://ik.imagekit.io/dkdlgynlu/Picsart-25-10-26-17-49-23-686.png",
     "LightRoom": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-75A8C0F.png",
     "Wattpad": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_DF63C42_.png",
@@ -156,6 +162,10 @@
     "Crunchyroll": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_A70E5F8_.png",
     "Telegram Star": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_AEF396E_.png",
     "Google Play Gift Card": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_E847DAF_.png?updatedAt=1767023159606",
+     
+    // NEW: Uab Pay Top Up Service (Updated to use Online Link)
+    "Uab Pay Top Up Service": "https://ik.imagekit.io/qfcioh4up/uab.png?updatedAt=1768203421424",
+     
     // REGION FLAGS
     "Google Play Turkey": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_C5A9149_.png",
     "Google Play Indonesia": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_9D4756B_.png",
@@ -197,7 +207,6 @@
   };
 
   // --- CONFIG FOR CUSTOM AMOUNT CALCULATOR ---
-  // Updated rates based on price increase (approx +20%)
   const customConfigs = {
     "Google Play US": { min: 5, max: 200, rate: 6000, curr: "$" },
     "Google Play UK": { min: 1, max: 500, rate: 7800, curr: "£" },
@@ -422,14 +431,28 @@
         ]
     },
     "PlaySafeCard": { "Voucher": [{ duration: "1 Card", price: "5,000 Kyats" }] }, 
-    
-    // RESTORED PRODUCTS WITH NEW PRICES
+     
+    // NEW: Uab Pay Top Up Service
+    "Uab Pay Top Up Service": {
+        "Top Up Fee (2%)": [
+            { "duration": "10000 Kyats (5 mins)", "price": "10200 Ks" }
+        ]
+    },
+
     "TikTok Official": {
       "Login method": [
         { "duration": "100 Coin", "price": "5,300 Kyats" }
+      ],
+      "Promote Service": [
+        { "duration": "1$", "price": "5,300 Kyats" }
       ]
     },
-    "TikTok Non Official": {
+    "Facebook Official": {
+      "Promote Service": [
+        { "duration": "1$", "price": "5,300 Kyats" }
+      ]
+    },
+    "TikTok Social Service": {
       "Views (NoDrop)": [
         { "duration": "10,000 Views", "price": "1,500 Kyats" },
         { "duration": "100,000 Views", "price": "7,500 Kyats" }, 
@@ -460,7 +483,7 @@
         { "duration": "10,000 Shares", "price": "9,000 Kyats" }
       ]
     },
-    "Telegram Boosting": {
+    "Telegram Social Service": {
       "Post Views": [
         { "duration": "1,000 Views", price: "1,500 Kyats" }, 
         { "duration": "10,000 Views", price: "2,000 Kyats" }, 
@@ -484,7 +507,7 @@
         { "duration": "1,000 Members", price: "16,000 Kyats" }
       ]
     },
-    "YouTube Boosting": {
+    "YouTube Social Service": {
       "Livestream Views": [
         { "duration": "10,000 Views (15 min)", price: "8,000 Kyats" },
         { "duration": "10,000 Views (30 min)", price: "19,000 Kyats" }
@@ -496,7 +519,7 @@
         { "duration": "1 Comment", price: "200 Kyats" }
       ]
     },
-    "Facebook Boosting": {
+    "Facebook Social Service": {
         "Video Views(Lifetime Refill)": [
             { "duration": "1,000 Views", "price": "2,000 Kyats" },
             { "duration": "10,000 Views", "price": "7,500 Kyats" },
@@ -534,7 +557,7 @@
             { "duration": "1,000 Views", "price": "15,000 Kyats" }
         ]
     },
-    "Instagram Boosting": {
+    "Instagram Social Service": {
         "Video Views & Reels(SLOW)": [
             { "duration": "1,000 Views", "price": "1,500 Kyats" },
             { "duration": "10,000 Views", "price": "3,500 Kyats" },
@@ -994,19 +1017,45 @@ Supports all devices.` + generalDetailsBlock,
     "PlaySafeCard": `Voucher Code
 Expires in 7 Days.
 Please contact admin for usage details.` + generalDetailsBlock,
-    "TikTok Official": `Coinက TikTok official boostတဲ့နေရာမာ Coin တေကိုသုံးရတာပါ။အဲ့ Coin ကိုရောင်းပေးတာပါ။ Login ဝင်ပီးဝယ်ရတာပါ။ buttt email password ဘာမပေးစရာမလိုပါဘူး။` + generalDetailsBlock,
-    "TikTok Non Official": `Views (NoDrop)
+    "TikTok Official": `Login method
+Coinက TikTok official boostတဲ့နေရာမာ Coin တေကိုသုံးရတာပါ။အဲ့ Coin ကိုရောင်းပေးတာပါ။ ⏩ မှတ်ချက် ။  ။ မိမိရဲ့ အကောင့် Username နဲ့ Password ကို ပေးရပါမယ်။ လုံခြုံ မှု က အာမခံ ပါသည်။ အကောင့်ထဲသို ၀င်မည် မဟုတ်ပါ။ Coin ၀ယ်သော Website သို ၀င်ရောက် ရန် အတွက် သာ ဖြစ်ပါသည်။ Coin ၀ယ်ယူ‌ေနစဉ် မိမိအကောင့်ထဲမှာ စောင့်ပေးရပါမည်။ ကျသင့် တန်ဖိုးအား ကြိုတင် ငွေဲပေးရပါမည်။
+
+Promote Service
+TikTok Boost Service အပ်မယ်ဆိုရင် အကောင့် Password
+ပေးစရာမလိုပါဘူး
+Boost လုပ်ချင်တဲ့ Video link ပို့ပေးရုံပါပဲ
+ဒီဘက်က promote  လုပ်ပေးတဲ့အခါ Inbox မှာဝင်လာ
+တဲ့
+Permission တောင်းတာကို Confirm နှိပ်ပေးရင်ရပါပြီ
+( ဒါကလဲ ပထမဆုံးစအပ်တဲ့တခါပါပဲ နောက်တခါထပ်အပ်ရင်
+လုပ်စရာမလိုတော့ပါဘူး)
+Facebook Page လို Inreview မကြာလို့
+နာရီဝက် တနာရီအတွင်း Active ဖြစ်ပါတယ်
+View တွေ Like , Follower တွေကတော့ ကိုယ် Boost ထားတဲ့
+ရက်အတွင်း တက်နေမှာဖြစ်လို့
+စိတ်ရှည်ရှည်နဲ့စောင့်ဖို့လိုပါမယ်` + generalDetailsBlock,
+    "Facebook Official": `🔘 Facebook Boost Service အပ်မည် ဆိုပါက အနည်းဆုံး ($5)  ကစပြီး Boosts လုပ့်ရပါတယ်။ Page များကိုပဲ boost လုပ်ပေးပါတယ်။ Page Admin ခန့်ပေးရပါမယ်။
+
+(1) Page (Like (or) Follower)
+(2) Engagement
+(3) Video View
+(4) Message Boosts လုပ်လိုရပါတယ်
+
+လူကြိုက်များတဲ့ Boost items တွေကတော့ ( Message , Engagement )
+1.Message ဝင်ပြီး ဈေးရောင်းရချင်ရင် Message Boost ပါ။
+2.Reach လဲရောက်ချင်တယ်။ Boost တဲ့ Post မှာလဲ Like/Comment/Share ရချင်ရင် Engagement Boost ပါ။` + generalDetailsBlock,
+    "TikTok Social Service": `Views (NoDrop)
     No dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။
-       
+        
     Likes (NoDrop)
     No dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။
-       
+        
     Package Plan
     No dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။` + generalDetailsBlock,
-    "Telegram Boosting": `Post Reactions are Lifetime No-Drop. Members have a 30-day refill guarantee.` + generalDetailsBlock,
-    "YouTube Boosting": `Livestream Views are Impression type, please contact admin for specific details before purchasing.` + generalDetailsBlock,
-    "Facebook Boosting": `Various boosting services for views, likes, and followers. Please provide the correct link/URL for the service.` + generalDetailsBlock,
-    "Instagram Boosting": `Views, Likes, and Followers services. Please provide the correct link/URL for the service.` + generalDetailsBlock,
+    "Telegram Social Service": `Post Reactions are Lifetime No-Drop. Members have a 30-day refill guarantee.` + generalDetailsBlock,
+    "YouTube Social Service": `Livestream Views are Impression type, please contact admin for specific details before purchasing.` + generalDetailsBlock,
+    "Facebook Social Service": `Various boosting services for views, likes, and followers. Please provide the correct link/URL for the service.` + generalDetailsBlock,
+    "Instagram Social Service": `Views, Likes, and Followers services. Please provide the correct link/URL for the service.` + generalDetailsBlock,
     "Custom Website Service": `Base Service
 ဒါက Any kinds of Website ကိုလိုချင်တဲ့ functionတေfully functionalဖြစ်တဲ့ထိလုပ်ပေးမာပါ။ Inspired design request လို့ရပါတယ်။ Custom Design package မဟုတ်လို့အရမ်း complex ဖြစ်တာတေတော့‌ Request လို့မရပါဘူး။ Website Codeတေလဲအပိုင်မရပါဘူး။ Domains ရှိရင်ထည့်ပေးပါတယ်။ မထည့်ပဲကျနော်လုပ်ပေးတဲ့အတိုင်းဆို lifetime ဘာhosting feeမပေးစရာမလိုပဲသူံးလို့ရပါတယ်။
 More information on DM. Price may vary based on complexity.
@@ -1049,9 +1098,10 @@ Acrobat Pro → edit & sign PDFs
     "Google Play Switzerland": "Region: Switzerland (CHF)\nBuy specific amounts or custom amount." + generalDetailsBlock,
     "Google Play Canada": "Region: Canada (CAD)\nBuy specific amounts." + generalDetailsBlock,
     "Google Play UAE": "Region: UAE (AED)\nCustom amount only." + generalDetailsBlock,
-    "Google Play Poland": "Region: Poland (PLN)\nBuy specific amounts." + generalDetailsBlock
+    "Google Play Poland": "Region: Poland (PLN)\nBuy specific amounts." + generalDetailsBlock,
+    // NEW: Uab Pay Note
+    "Uab Pay Top Up Service": `(KPay-WavePay-AyaPay-CbPay-YomaPay-OKpay-A+wallet-Trustypay-CTZpay) to Uabpay ငွေလဲခ 2% ကောက်ခံပါသည်။` + generalDetailsBlock
   };
-    
   const deviceSupport = { 
     "CapCut": ["android", "ios", "pc"], 
     "AlightMotion": ["android", "ios"], 
@@ -1096,11 +1146,12 @@ Acrobat Pro → edit & sign PDFs
     "TradingView": ["android", "ios", "pc"], 
     "PlaySafeCard": [],
     "TikTok Official": ["android", "ios", "pc"],
-    "TikTok Non Official": ["android", "ios", "pc"],
-    "Telegram Boosting": ["android", "ios", "pc"],
-    "YouTube Boosting": ["android", "ios", "pc"],
-    "Facebook Boosting": ["android", "ios", "pc"],
-    "Instagram Boosting": ["android", "ios", "pc"],
+    "Facebook Official": ["android", "ios", "pc"],
+    "TikTok Social Service": ["android", "ios", "pc"],
+    "Telegram Social Service": ["android", "ios", "pc"],
+    "YouTube Social Service": ["android", "ios", "pc"],
+    "Facebook Social Service": ["android", "ios", "pc"],
+    "Instagram Social Service": ["android", "ios", "pc"],
     "Custom Website Service": ["pc"],
     "LightRoom": ["android", "ios", "pc"],
     "Wattpad": ["android", "ios", "pc"],
@@ -1126,7 +1177,9 @@ Acrobat Pro → edit & sign PDFs
     "Google Play Poland": ["android", "ios", "pc"],
     "Google Play Japan": ["android", "ios", "pc"],
     "Google Play US": ["android", "ios", "pc"],
-    "Google Play UK": ["android", "ios", "pc"]
+    "Google Play UK": ["android", "ios", "pc"],
+    // NEW: Uab Pay Device Support
+    "Uab Pay Top Up Service": ["android", "ios", "pc"]
   };
 
   const deviceIconMap = { "android": '<i class="fa-brands fa-android"></i>', "ios": '<i class="fa-brands fa-apple"></i>', "pc": '<i class="fa-solid fa-desktop"></i>', "tv": '<i class="fa-solid fa-tv"></i>' };
@@ -1280,7 +1333,7 @@ Acrobat Pro → edit & sign PDFs
   /* =========================
       POPULAR SECTION LOGIC
       ========================= */
-  const popularList = ["CapCut", "Canva", "Telegram", "Express Vpn", "Google Drive", "TeraBox", "Gemini Veo 3", "ChatGPT Plus"];
+  const popularList = ["CapCut", "Canva", "Telegram", "Express Vpn", "Google Drive", "Gemini Veo 3", "ChatGPT Plus", "TikTok Official"];
   function renderPopular(containerId, excludeName) {
     const cont = document.getElementById(containerId);
     if (!cont) return;
@@ -1472,13 +1525,13 @@ Acrobat Pro → edit & sign PDFs
         <div class="plan-box">
           <div class="plan-title">Custom Amount (${customConf.min} - ${customConf.max} ${customConf.curr})</div>
           <div style="padding:10px; display:flex; flex-direction:column; gap:10px;">
-             <label style="font-size:14px; color:#ccc;">Enter Amount</label>
-             <div style="display:flex; gap:10px;">
-                <input type="number" id="custom-amount-input" min="${customConf.min}" max="${customConf.max}" placeholder="${customConf.min}-${customConf.max}" 
-                       style="flex:1; padding:12px; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(255,255,255,0.05); color:white; font-size:16px;">
-                <div id="custom-calc-price" style="align-self:center; font-weight:bold; color:#00e676; min-width:100px; text-align:right;">0 Kyats</div>
-             </div>
-             <button id="btn-add-custom" class="btn btn-primary" style="width:100%;">Add to Cart</button>
+              <label style="font-size:14px; color:#ccc;">Enter Amount</label>
+              <div style="display:flex; gap:10px;">
+                 <input type="number" id="custom-amount-input" min="${customConf.min}" max="${customConf.max}" placeholder="${customConf.min}-${customConf.max}" 
+                        style="flex:1; padding:12px; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(255,255,255,0.05); color:white; font-size:16px;">
+                 <div id="custom-calc-price" style="align-self:center; font-weight:bold; color:#00e676; min-width:100px; text-align:right;">0 Kyats</div>
+              </div>
+              <button id="btn-add-custom" class="btn btn-primary" style="width:100%;">Add to Cart</button>
           </div>
         </div>`;
         
@@ -1566,7 +1619,7 @@ Acrobat Pro → edit & sign PDFs
     const productName = item.product.replace(/ \(.+\)$/, '');
     
     // Explicitly hide notes for TikTok Livestream plans to prevent the "NoDrop" text from appearing via fallback
-    if (productName === "TikTok Non Official" && item.section.toLowerCase().includes("livestream")) {
+    if (productName === "TikTok Social Service" && item.section.toLowerCase().includes("livestream")) {
         return null; 
     }
     
@@ -1582,7 +1635,7 @@ Share plan မို့လို့ 1 device ပဲသုံးလို့ရ�
     
     const rawDetails = fullText.trim();
     
-    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\))/i; 
+    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\)|Promote Service|Uab pay Top Up)/i; 
     
     const lines = rawDetails.split('\n').map(l => l.trim()).filter(l => l.length > 0);
     
@@ -1766,7 +1819,7 @@ ${firstLine}
     // --- TIKTOK WARNING LOGIC ---
     let tiktokWarningHtml = '';
     const hasTikTokNoDrop = cart.some(item => 
-        item.product === 'TikTok Non Official' && 
+        item.product === 'TikTok Social Service' && 
         (item.section.includes('Views (NoDrop)') || item.section.includes('Likes (NoDrop)')) &&
         !item.section.toLowerCase().includes('livestream')
     );
@@ -1813,8 +1866,8 @@ ${firstLine}
     });
 
     // --- MERGE TIKTOK NODROP NOTES ---
-    const tiktokViewsKey = "TikTok Non OfficialViews (NoDrop)";
-    const tiktokLikesKey = "TikTok Non OfficialLikes (NoDrop)";
+    const tiktokViewsKey = "TikTok Social ServiceViews (NoDrop)";
+    const tiktokLikesKey = "TikTok Social ServiceLikes (NoDrop)";
 
     if (uniqueProductNotes.has(tiktokViewsKey) && uniqueProductNotes.has(tiktokLikesKey)) {
         // Get the note content from one (they are identical)
@@ -1827,7 +1880,7 @@ ${firstLine}
         // Create a merged entry
         // We need to mock the 'item' structure for the title generator later
         const mergedItem = {
-            product: "TikTok Non Official",
+            product: "TikTok Social Service",
             section: "Views,Likes (NoDrop)" 
         };
         
@@ -1927,7 +1980,7 @@ ${firstLine}
       FORMATTERS
       ========================= */
   function formatDetails(raw) {
-    const headers = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount)/i; 
+    const headers = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\)|Promote Service|Uab pay Top Up)/i; 
     
     const vpnAlertTag = 'CAN\'T USE IN MYANMAR';
     
