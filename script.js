@@ -207,9 +207,10 @@
     "Google Play France": { min: 1, max: 500, rate: 7200, curr: "€" },
     "Google Play Italy": { min: 1, max: 500, rate: 7200, curr: "€" },
     "Google Play Switzerland": { min: 1, max: 1000, rate: 7800, curr: "CHF" },
-    "Google Play UAE": { min: 5, max: 1000, rate: 1800, curr: "AED" }
+    "Google Play UAE": { min: 5, max: 1000, rate: 1800, curr: "AED" },
+    "Uab Pay Top Up Service": { min: 10000, max: 1000000, rate: 1.02, curr: "Ks " }
   };
-
+ 
   const productData = { 
     "CapCut": { 
       Share: [
