@@ -1376,7 +1376,7 @@ Acrobat Pro → edit & sign PDFs
   /* =========================
       POPULAR SECTION LOGIC
       ========================= */
-  const popularList = ["CapCut", "Canva", "Telegram", "Express Vpn", "Google Drive", "Gemini Veo 3", "ChatGPT Plus", "TikTok Official"];
+  const popularList = ["CapCut", "Canva", "Express Vpn", "TikTok Official", "Facebook Official", "Uab Pay Top Up Service", "Facebook Myanmar Social Service", "Gemini Veo 3", "Telegram"];
   function renderPopular(containerId, excludeName) {
     const cont = document.getElementById(containerId);
     if (!cont) return;
