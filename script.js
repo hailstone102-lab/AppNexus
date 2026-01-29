@@ -108,6 +108,7 @@
     "VSCO": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-A7-EE340.png", 
     "PhotoRoom": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-9-A11032.png", 
     "Remini": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-CBAFAF8.png", 
+    "Outline VPN": "https://ik.imagekit.io/3cntctama/outline%20vpn.jpg",
     "NordVpn": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-1-FBC099.png", 
     "Express Vpn": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-7-D8-AC42-1.png", 
     "Surfshark Vpn": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B51-A628.png", 
@@ -142,14 +143,15 @@
     "TeraBox": "https://ik.imagekit.io/dkdlgynlu/Picsart-25-11-10-18-01-52-861.png",
     "PlaySafeCard": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-478-B983.png",
     "TikTok Official": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B93-FC6-C.png",
+    "Facebook Official": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
     "TikTok Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B93-FC6-C.png",
+    "TikTok Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-B93-FC6-C.png",
     "Telegram Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-ED17968.png",
     "YouTube Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-87-A43-F1.png",
     "Facebook Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
     "Instagram Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-01-CA830.png",
-    "Facebook Official": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
-    "Facebook Myanmar Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
-    "Telegram Myanmar Social Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-ED17968.png",
+    "Myanmar Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-10387-D3.png",
+    "Myanmar Member Service": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-ED17968.png",
     "Custom Website Service": "https://ik.imagekit.io/dkdlgynlu/Picsart-25-10-26-17-49-23-686.png",
     "LightRoom": "https://ik.imagekit.io/dkdlgynlu/New-Project-52-75A8C0F.png",
     "Wattpad": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_DF63C42_.png",
@@ -159,7 +161,8 @@
     "Crunchyroll": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_A70E5F8_.png",
     "Telegram Star": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_AEF396E_.png",
     "Google Play Gift Card": "https://ik.imagekit.io/dkdlgynlu/Wattpad%20_E847DAF_.png?updatedAt=1767023159606",
-    "Uab Pay Top Up Service": "https://ik.imagekit.io/3cntctama/unnamed_1768796434666edit.jpg?updatedAt=1768796834549",
+    "Uab Pay": "https://ik.imagekit.io/3cntctama/uab.jpg",
+    "Aya Pay": "https://ik.imagekit.io/3cntctama/aya.jpg?updatedAt=1769311903485",
     "Google Play Turkey": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_C5A9149_.png",
     "Google Play Indonesia": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_9D4756B_.png",
     "Google Play Brazil": "https://ik.imagekit.io/dkdlgynlu/New%20Project%207%20_294445A_.png",
@@ -208,9 +211,9 @@
     "Google Play Italy": { min: 1, max: 500, rate: 7200, curr: "€" },
     "Google Play Switzerland": { min: 1, max: 1000, rate: 7800, curr: "CHF" },
     "Google Play UAE": { min: 5, max: 1000, rate: 1800, curr: "AED" },
-    "Uab Pay Top Up Service": { min: 10000, max: 1000000, rate: 1.02, curr: "Ks " }
+    "Uab Pay": { min: 10000, max: 1000000, rate: 1.02, curr: "Ks " },
+    "Aya Pay": { min: 10000, max: 1000000, rate: 1.02, curr: "Ks " }
   };
- 
   const productData = { 
     "CapCut": { 
       Share: [
@@ -268,6 +271,12 @@
       Share: [{ duration: "1 Month (Web)", price: "5,000 Kyats" }, { duration: "1 Year (APK Lite)", price: "18,000 Kyats" }, { duration: "1 Year (APK Pro)", price: "24,000 Kyats" }], 
       Private: [{ duration: "1 Month (Web)", price: "8,500 Kyats" }]
     }, 
+"Outline VPN": {
+        "Private": [
+            { "duration": "1 Month", "price": "3,500 Kyats" },
+            { "duration": "3 Months", "price": "10,000 Kyats" }
+        ]
+    },    
     "Express Vpn": { 
       Share: [{ duration: "1 Month", price: "3,000 Kyats" }, { duration: "PC / Laptop (1 Month)", price: "4,500 Kyats" }], 
       Private: [{ duration: "1 Month", price: "9,900 Kyats" }] 
@@ -330,15 +339,8 @@
             { "duration": "1 Month", "price": "12,000 Kyats" }
         ]
     },
-    "Google Drive": { Share: [], Private: [{ duration: "Lifetime (1000GB)", price: "39,000 Kyats" }] }, 
-    "iCloud": { 
-        Share: [
-            { duration: "Gift Card — 1 Month (50GB)", price: "Out of stock" }, 
-            { duration: "Invite Email — 1 Month (100GB)", price: "Out of stock" }
-        ], 
-        Private: [] 
-    }, 
     "Google One": { Share: [], Private: [{ duration: "1 Year (2000GB + Veo3 Gemini AI)", price: "29,000 Kyats" }] }, 
+    "Google Drive": { Share: [], Private: [{ duration: "Lifetime (1000GB)", price: "39,000 Kyats" }] }, 
     "TeraBox": { 
         "Sharing": [
             { duration: "1 Year (2TB)", price: "22,000 Kyats" }
@@ -360,8 +362,8 @@
     },
     "Gemini Veo 3": { 
         "Private(Can Invite 5 Email)": [ 
-            { duration: "1 Month (+2000GB storage)", price: "13,500 Kyats" }, 
-            { duration: "1 Year (+2000GB storage)", price: "28,000 Kyats" }
+            { duration: "1 Month (+2000GB storage)", price: "16,500 Kyats" }, 
+            { duration: "1 Year (+2000GB storage)", price: "35,000 Kyats" }
         ]
     }, 
     "Grammarly AI": { Share: [{ duration: "1 Month", price: "6,500 Kyats" }], Private: [] }, 
@@ -381,7 +383,7 @@
     "Telegram": { 
       "Login": [
         { "duration": "1 Month", "price": "24,000 Kyats" }, 
-        { "duration": "1 Year", "price": "121,000 Kyats" } 
+        { "duration": "1 Year", "price": "112,000 Kyats" } 
       ], 
       "Gift Plan": [
         { "duration": "3 Months", "price": "62,500 Kyats" }, 
@@ -414,8 +416,8 @@
     "SCRIBD": { "Private": [{ duration: "2 Months", price: "8,500 Kyats" }] },
     "WPS Office": { 
         "Sharing Pro": [
-            { duration: "1 Month", price: "10,000 Kyats" },
-            { duration: "1 Year", price: "39,500 Kyats" }
+            { duration: "1 Month", "price": "10,000 Kyats" },
+            { duration: "1 Year", "price": "39,500 Kyats" }
         ]
     },
     "TradingView": { 
@@ -424,29 +426,6 @@
         ]
     },
     "PlaySafeCard": { "Voucher": [{ duration: "1 Card", price: "5,000 Kyats" }] }, 
-      
-    // NEW: Uab Pay Top Up Service
-    "Uab Pay Top Up Service": {
-      "K Pay to Uab Pay": [
-        { "duration": "10,000 Kyats", "price": "10,200 Kyats" }
-      ],
-      "Wave Pay to Uab Pay": [
-        { "duration": "10,000 Kyats", "price": "10,200 Kyats" }
-      ],
-      "CB Pay to Uab Pay": [
-        { "duration": "10,000 Kyats", "price": "10,200 Kyats" }
-      ],
-      "Aya Pay to Uab Pay": [
-        { "duration": "10,000 Kyats", "price": "10,200 Kyats" }
-      ],
-      "Yoma Pay to Uab Pay": [
-        { "duration": "10,000 Kyats", "price": "10,200 Kyats" }
-      ],
-      "Ok Pay to Uab Pay": [
-        { "duration": "10,000 Kyats", "price": "10,200 Kyats" }
-        ]
-    },
-
     "TikTok Official": {
       "Login method": [
         { "duration": "100 Coin", "price": "5,300 Kyats" }
@@ -490,6 +469,20 @@
         { "duration": "1,000 Shares", "price": "2,000 Kyats" },
         { "duration": "10,000 Shares", "price": "9,000 Kyats" }
       ]
+    },
+    "TikTok Service": {
+        "Japan Region Change Service": [
+            { duration: "Follower 1K to 20K", price: "180,000 Kyats" },
+            { duration: "Follower 20K to 100K", price: "340,000 Kyats" },
+            { duration: "Follower 100K to 200K", price: "550,000 Kyats" },
+            { duration: "Follower 200K to 1M", price: "800,000 Kyats" }
+        ],
+        "Japan New Account": [
+            { duration: "1 Account", price: "5,000 Kyats" }
+        ],
+        "Account Unban": [
+            { duration: "1 Account", price: "90,000 Kyats" }
+        ]
     },
     "Telegram Social Service": {
       "Post Views": [
@@ -568,6 +561,7 @@
     "Instagram Social Service": {
         "Video Views & Reels(SLOW)": [
             { "duration": "1,000 Views", "price": "1,500 Kyats" },
+            { "duration": "1,000 Views", "price": "1,500 Kyats" },
             { "duration": "10,000 Views", "price": "3,500 Kyats" },
             { "duration": "100,000 Views", "price": "4,800 Kyats" },
             { "duration": "1,000,000 Views", "price": "23,000 Kyats" }
@@ -618,7 +612,7 @@
             { "duration": "1,000(1Year Refill)", "price": "15,000 Kyats" }
         ]
     },
-    "Facebook Myanmar Social Service": {
+    "Myanmar Service": {
       "Page Like & Follow": [
         { "duration": "1,000 Count", "price": "15,000 Kyats" }
       ],
@@ -647,7 +641,7 @@
         { "duration": "100 Likes", "price": "8,000 Kyats" }
       ]
     },
-    "Telegram Myanmar Social Service": {
+    "Myanmar Member Service": {
       "Telegram Myanmar Follower": [
         { "duration": "1,000 Followers", "price": "9,500 Kyats" }
       ]
@@ -931,6 +925,7 @@ Private
 5 devices maxသုံးလို့ရပါတယ်။
 Support All device
 Full Warranty` + generalDetailsBlock,
+    "Outline VPN": `၀ယ်ယူထားသည့် ကာလ အတွင်း error ဖြစ်ပါက ချက်ချင်း အသစ် လဲပေးပါတယ်။` + generalDetailsBlock,
     "NordVpn": `Share\n1-Year: 6-months warranty\nOne device only\n\nPrivate\nFull warranty for full duration\nUp to 6 devices` + generalDetailsBlock, 
     "Express Vpn": `Share\nFull warranty for full duration\nOne device only\n\nPrivate\nFull warranty for full duration\nUp to 9 devices: 8 Phones & 1 PC or Laptop\nCustom Password` + generalDetailsBlock, 
     "Surfshark Vpn": `Share
@@ -1092,12 +1087,20 @@ View တွေ Like , Follower တွေကတော့ ကိုယ် Boost �
         
     Package Plan
     No dropဆိုပေမဲ့ TikTok ကစာပို့ပီးဖျက်ချသွားရင်တာ့ပြန်မထည့်ပေးပါဘူး။ထည့်ရင်လဲအကောင့် warning ထိမာပါ။` + generalDetailsBlock,
+    "TikTok Service": `Japan Region Change Service
+    Japan Region ချိန်းမယ် ဆိုရင် အရင်ဆုံးကိုယ့်ရဲ့အကောင့်မှာ region ချိန်းလို့ ရမရ အရင် စစ်ရပါမယ်။  စာကြောင်းတစ်‌‌ေကြာင်းထဲပေါ်ရင်ချိန်းလို့ရပါတယ်။region ချိန်းနေစဉ်ကာလအတွင်းမှာလည်းကိုယ့်ရဲ့အကောင့်ကိုလုံးဝဝင်ရောက်ခြင်းမပြုရပါဘူး။အချိန်က‌ေတာ့ ၂ရက်ကနေ၇ရက်လောက်ကြာနိုင်ပါတယ်။
+
+    Japan New Account
+    ဂျပန် အကောင့် အသစ် ဖောက်ရန် အတွက် Gmail အသစ်ဖောက်ရမည် ဖြစ်တဲ့အတွက် 15 mins လောက် ကြာနိုင်ပါတယ်။ ဖွင့်ချင်တဲ့ Username / Date of Brith ကို တခါထဲ ရေးပြီး ပို့ပေးရပါမယ်။
+
+    Account Unban
+    အကောင့်ပိုင်ရှင်ရဲ့ Username၊ Email၊ ဖုန်းနံပါတ်၊ အကောင့်ဖွင့်ခဲ့တဲ့ နေ့စွဲနဲ့ အသုံးပြုခဲ့တဲ့ Device (ဖုန်းအမျိုးအစား) စတာတွေကို ပို့ပေးရပါမယ်။ ဘာ အကြောင်း ကြောင့် ဘန်း ခံထိတာလဲ ဆိုတာကို ss တွေ ရိုက်ပို့ပေးရပါမယ်။ Banned အကောင့် များသည် ပြန်ဆယ်ဖို့က 50:50 ပါ။ ဒါကြောင့် စရံငွေ အရင်ပို့ပေးရပါမယ်။ တကယ်လို့ အကောင့်ကပြန်ဆယ်လို့ မရပါက စရံ ပြန်အမ်းပေးပါမယ်။` + generalDetailsBlock,
     "Telegram Social Service": `Post Reactions are Lifetime No-Drop. Members have a 30-day refill guarantee.` + generalDetailsBlock,
     "YouTube Social Service": `Livestream Views are Impression type, please contact admin for specific details before purchasing.` + generalDetailsBlock,
     "Facebook Social Service": `Various boosting services for views, likes, and followers. Please provide the correct link/URL for the service.` + generalDetailsBlock,
     "Instagram Social Service": `Views, Likes, and Followers services. Please provide the correct link/URL for the service.` + generalDetailsBlock,
-    "Facebook Myanmar Social Service": `Manual Service ဖြစ်တဲ့ အတွက် လုံး၀ လုံး၀ ပြန်မကျပါဘူး။ တကယ်လို့ ပြန်ကျလျှင်လည်း  အချိန်မရွေး ပြန်ပြောနိုင်ပါတယ်။ အာမခံ နဲ့ ပြန်လည်တိုးပေးပါမယ်။ order တင်ချိန်မှ ကြာချိန် 48 နာရီ အတွင်း completed ဖြစ်ပါမယ်။` + generalDetailsBlock,
-    "Telegram Myanmar Social Service": `_Gp/Channel ရော တိုးလို့ရပါတယ်
+    "Myanmar Service": `Manual Service ဖြစ်တဲ့ အတွက် လုံး၀ လုံး၀ ပြန်မကျပါဘူး။ တကယ်လို့ ပြန်ကျလျှင်လည်း  အချိန်မရွေး ပြန်ပြောနိုင်ပါတယ်။ အာမခံ နဲ့ ပြန်လည်တိုးပေးပါမယ်။ order တင်ချိန်မှ ကြာချိန် 48 နာရီ အတွင်း completed ဖြစ်ပါမယ်။` + generalDetailsBlock,
+    "Myanmar Member Service": `_Gp/Channel ရော တိုးလို့ရပါတယ်
 _Channel / Group Public ဖြစ်ရပါမယ်
 _Channel သည် 18+ , ဆေးဝါးရောင်းချခြင်း , Scam (လိမ်လည်ခြင်း) , ဘာမှမတင်ထားသော Channel မဖြစ်ရပါ။ ဖြစ်နေပါက Refund (ပြန်အမ်းငွေ) ရနိုင်မည် မဟုတ်ပါ။
 _Channel ၏သက်တမ်းသည် 2 ပတ်အထက် ရှိရမည်ဖြစ်ပြီး အနည်းဆုံး Post သုံးခု ရှိရပါမည်။` + generalDetailsBlock,
@@ -1143,7 +1146,8 @@ Acrobat Pro → edit & sign PDFs
     "Google Play Canada": "Region: Canada (CAD)\nBuy specific amounts." + generalDetailsBlock,
     "Google Play UAE": "Region: UAE (AED)\nCustom amount only." + generalDetailsBlock,
     "Google Play Poland": "Region: Poland (PLN)\nBuy specific amounts." + generalDetailsBlock,
-    "Uab Pay Top Up Service": `(KPay-WavePay-AyaPay-CbPay-YomaPay-OKpay-A+wallet-Trustypay-CTZpay) to Uabpay ငွေလဲခ 2% ကောက်ခံပါသည်။` + generalDetailsBlock
+    "Uab Pay": `(KPay-WavePay-AyaPay-CbPay-YomaPay-OKpay-A+wallet-Trustypay-CTZpay) to Uabpay ငွေလဲခ 2% ကောက်ခံပါသည်။` + generalDetailsBlock,
+    "Aya Pay": `(KPay-WavePay-CbPay-UabPay) to AyaPay ငွေလဲခ 2% ကောက်ခံပါသည်။` + generalDetailsBlock
   };
   const deviceSupport = { 
     "CapCut": ["android", "ios", "pc"], 
@@ -1155,6 +1159,7 @@ Acrobat Pro → edit & sign PDFs
     "VSCO": ["android", "ios"], 
     "PhotoRoom": ["android", "ios"], 
     "Remini": ["android", "ios"], 
+    "Outline VPN": ["android", "ios", "pc"],
     "NordVpn": ["android", "ios", "pc"], 
     "Express Vpn": ["android", "ios", "pc"], 
     "Surfshark Vpn": ["android", "ios", "pc"], 
@@ -1191,12 +1196,13 @@ Acrobat Pro → edit & sign PDFs
     "TikTok Official": ["android", "ios", "pc"],
     "Facebook Official": ["android", "ios", "pc"],
     "TikTok Social Service": ["android", "ios", "pc"],
+    "TikTok Service": ["android", "ios", "pc"],
     "Telegram Social Service": ["android", "ios", "pc"],
     "YouTube Social Service": ["android", "ios", "pc"],
     "Facebook Social Service": ["android", "ios", "pc"],
     "Instagram Social Service": ["android", "ios", "pc"],
-    "Facebook Myanmar Social Service": ["android", "ios", "pc"],
-    "Telegram Myanmar Social Service": ["android", "ios", "pc"],
+    "Myanmar Service": ["android", "ios", "pc"],
+    "Myanmar Member Service": ["android", "ios", "pc"],
     "Custom Website Service": ["pc"],
     "LightRoom": ["android", "ios", "pc"],
     "Wattpad": ["android", "ios", "pc"],
@@ -1222,7 +1228,8 @@ Acrobat Pro → edit & sign PDFs
     "Google Play Japan": ["android", "ios", "pc"],
     "Google Play US": ["android", "ios", "pc"],
     "Google Play UK": ["android", "ios", "pc"],
-    "Uab Pay Top Up Service": ["android", "ios", "pc"]
+    "Uab Pay": ["android", "ios", "pc"],
+    "Aya Pay": ["android", "ios", "pc"]
   };
 
   const deviceIconMap = { "android": '<i class="fa-brands fa-android"></i>', "ios": '<i class="fa-brands fa-apple"></i>', "pc": '<i class="fa-solid fa-desktop"></i>', "tv": '<i class="fa-solid fa-tv"></i>' };
@@ -1376,7 +1383,7 @@ Acrobat Pro → edit & sign PDFs
   /* =========================
       POPULAR SECTION LOGIC
       ========================= */
-  const popularList = ["CapCut", "Canva", "Express Vpn", "TikTok Official", "Facebook Official", "Uab Pay Top Up Service", "Facebook Myanmar Social Service", "Gemini Veo 3", "Telegram"];
+  const popularList = ["CapCut", "Canva", "Express Vpn", "TikTok Official", "Facebook Official", "Myanmar Service", "Gemini Veo 3", "Telegram"];
   function renderPopular(containerId, excludeName) {
     const cont = document.getElementById(containerId);
     if (!cont) return;
@@ -1678,7 +1685,7 @@ Share plan မို့လို့ 1 device ပဲသုံးလို့ရ�
     
     const rawDetails = fullText.trim();
     
-    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\)|Promote Service|Uab pay Top Up|Page Like & Follow|Post Like|Account Follow|Profile Follow|Page Follow|Page Review|Comment|Group Share|Comment Like|Telegram Myanmar Follower)/i; 
+    const sectionHeaders = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\)|Promote Service|Uab pay Top Up|Page Like & Follow|Post Like|Account Follow|Profile Follow|Page Follow|Page Review|Comment|Group Share|Comment Like|Telegram Myanmar Follower|Japan Region Change Service|Japan New Account|Account Unban)/i; 
     
     const lines = rawDetails.split('\n').map(l => l.trim()).filter(l => l.length > 0);
     
@@ -2023,7 +2030,7 @@ ${firstLine}
       FORMATTERS
       ========================= */
   function formatDetails(raw) {
-    const headers = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\)|Promote Service|Uab pay Top Up|Page Like & Follow|Post Like|Account Follow|Profile Follow|Page Follow|Page Review|Comment|Group Share|Comment Like|Telegram Myanmar Follower)/i; 
+    const headers = /^(Share|Private|SemiPrivate|FullPrivate|Tinder Plus Share|Login|Gift Plan & Link Plan|Gift Plan|Link Plan|Views \(NoDrop\)|Likes \(NoDrop\)|Comment - Emoji Type|Comment - Custom Type|Package Plan|Livestream Views|Livestream Likes|Livestream Share|Post Views|Positive Reactions|Negative Reactions|Custom Reactions|Premium Reactions|Members \(30Days Refill\)|Livestream Views|Comment - Impression Type|Comment - Custom Type|Video Views|Video Likes|Post Likes|Profile Followers|Page Followers|Live Stream Views|Video Views & Reels|Likes|Followers|Personal Plus \(Share\)|Personal Plus \(Private\)|Business - Invite Own Email|Business - Own|Private Own Mail|Private \(Own Mail\)|Base Service|1 Profile\(Semiprivate\)|5 Profiles\(Whole Account\)|Nitro Basic \(Key\)|Individual|Invite with email|Sharing Pro|Plan Basic|Plan Premium|HBO MAX \(ULTIMATE\) 1 Month|Private Whole Account \(1 Month\)|1 Profile|Whole Account|OwnMail Private|Individual Plan|Business Own\(Full Warranty\)|Business Plus Own\(Full Warranty\)|Business Plus Own|Normal Plan|Family Head\(Can Invite 5 email\)|Invite Private|Web Private|Pro Share|Pro Private|Lifetime Premium|Educational\(Invite\)|Individual Plan\(Private\)|Stars|Japan Region \(¥\)|US Region \(\$\)|UK Region \(£\)|Custom Amount|Turkey Region \(TL\)|Indonesia Region \(IDR\)|Brazil Region \(BRL\)|Korea Region \(₩\)|India Region \(₹\)|Australia Region \(A\$\)|Germany Region \(€\)|France Region \(€\)|Italy Region \(€\)|Switzerland Region \(CHF\)|Canada Region \(C\$\)|UAE Region \(AED\)|Poland Region \(PLN\)|Promote Service|Uab pay Top Up|Page Like & Follow|Post Like|Account Follow|Profile Follow|Page Follow|Page Review|Comment|Group Share|Comment Like|Telegram Myanmar Follower|Japan Region Change Service|Japan New Account|Account Unban)/i; 
     
     const vpnAlertTag = 'CAN\'T USE IN MYANMAR';
     
