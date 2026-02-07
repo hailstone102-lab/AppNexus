@@ -1978,7 +1978,7 @@ ${firstLine}
         item.product === 'Telegram' && (item.section === 'Login' && item.duration.includes('1 Year') || telegramCustomPlans.some(plan => item.section.includes(plan)))
     );
     
-    const checkoutLink = requiresCustomTelegram ? 'https://t.me/Fury_edtz' : 'https://t.me/Thetpaing102';
+    const checkoutLink = requiresCustomTelegram ? 'https://t.me/Thetpaing102' : 'https://t.me/Thetpaing102';
     dom.checkout.nextBtn.href = checkoutLink;
 
     dom.checkout.noteStep.style.display = 'block';
